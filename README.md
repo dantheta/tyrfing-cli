@@ -59,39 +59,40 @@ To change the mode to breathe in blue, enter:
 ? 255 # set to 255 (blue bg)
 > 16  # change byte 16
 ? 0   # set red to 0
-w
+> w
 ```
 
 Interesting byte values
 -----------------------
 
 byte 6: pattern
-    0 - ripple fill
-    2 - breathe
-    3 - stripe
-    4 - rain
-    5 - horse race
-    6 - disco floor
-    7 - key trail
-    8 - key ripple
-    9 - key strike
-    10 - key ripple 2
-    11 - riple and rain
-    12 - hstrike
-    13 - key fade
-    14 - off/custom 1?
-    15 - custom 2?
-    17 - radar
-    18 - rain again ?
+*    0 - ripple fill
+*    2 - breathe
+*    3 - stripe
+*    4 - rain
+*    5 - horse race
+*    6 - disco floor
+*    7 - key trail
+*    8 - key ripple
+*    9 - key strike
+*    10 - key ripple 2
+*    11 - riple and rain
+*    12 - hstrike
+*    13 - key fade
+*    14 - off/custom 1?
+*    15 - custom 2?
+*    17 - radar
+*    18 - rain again ?
 
 byte 8:
-	low 4 bits: brightness
-	high bit: oscilate brightness?
+*	low 4 bits: brightness
+*	high bit: oscilate brightness?
+
 byte 9:
-	low 2 bits: direction
+*	low 2 bits: direction
 	
 byte 7:
-	0 - 9 speed
+*	0 - 9 speed
 
 byte 12: bg red
 byte 13: bg green
