@@ -6,6 +6,8 @@ Command-line interactive debug tool for Drevo Tyrfing v2 keyboard.
 
 The notes here are a work in progress and very rough.
 
+Pre-built debug binaries are available through the github project releases tab.
+
 Usage
 -----
 
